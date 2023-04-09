@@ -1,5 +1,8 @@
 # WeTransfer
-Copycat de la home de WeTransfer.<br>
+Copycat de la home de WeTransfer. El objetivo era el de hacer el CSS utilizando solo pseudo clases y pseudo elementos.<br>
+
+<h2>Important:</h2>
+This site is a copycat of WeTransfer, and therefore, when opened in the browser, it can detect possible phishing. Don't worry, the warning is due to the similarity of the copycat!! :)
 
 <h2>Interesting Links:</h2>
 <a href="https://alejandroochandodev.github.io/wetransfer/">Live Site</a><br>
