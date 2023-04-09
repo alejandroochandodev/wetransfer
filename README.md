@@ -1,4 +1,4 @@
-# wetransfer
+# WeTransfer
 Copycat de la home de WeTransfer.<br>
 
 <h2>Interesting Links:</h2>
