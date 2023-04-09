@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    /* outline: 2px red ridge; */
+
+}
+
+*::before , *::after {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+form , input , button , select , option , textarea , label {
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: transparent;
+    appearance: none;
+    outline: none;
+
+}
+
+a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+img , iframe {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+svg {
+    display: block;
+}
+
+span {
+    display: block;
+}
+
+body {
+    max-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: url("../assets/images/fondotransfer.jpg") no-repeat center / cover;
+}
+
+form {
+    width: 18.75rem;
+    height: 63vh;
+    margin-top: calc(37vh / 2);
+    margin-left: 10vh;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+form > div:nth-of-type(1) {
+    padding: 1.875rem 1.25rem 1.875rem;
+    border-bottom: .0625rem solid rgb(183, 183, 183);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .9375rem;
+}
+
+label div:nth-child(1) {
+    height: 1.875rem;
+    width: 1.875rem;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form label div:nth-child(1) svg {
+    width: 1.375rem;
+    color: white;
+}
+
+form label div:nth-child(2) {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+span:nth-child(1) {
+    font-size: 1.375rem;
+}
+
+span:nth-child(2) {
+    font-size: .6875rem;
+    text-decoration: underline;
+}
+
+input[type="email"] {
+    font-size: .875rem;
+    width: 87%;
+    margin: .9375rem 1.25rem;
+    padding-bottom: .9375rem;
+    border-bottom: .0625rem solid rgb(183, 183, 183);
+}
+
+input[type="text"] {
+    font-size: .875rem;
+    width: 87%;
+    margin: .9375rem 1.25rem;
+    padding-bottom: .9375rem;
+    border-bottom: .0625rem solid rgb(183, 183, 183);
+}
+
+textarea {
+    font-size: .875rem;
+    width: 100%;
+    padding: 0rem 1.25rem .9375rem;
+    border-bottom: .0625rem solid rgb(183, 183, 183);
+}
+
+form > div:nth-of-type(2) {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.125rem;
+    padding: .9375rem 1.25rem;
+}
+
+form > div:nth-of-type(2) div {
+    height: 1.4375rem;
+    width: 1.4375rem;
+    border-radius: 50%;
+    border: .125rem solid blue;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form div:nth-of-type(2) div svg {
+    width: .8125rem;
+    color: blue;
+}
+
+input[type="submit"] {
+    font-size: 1.0625rem;
+    color: white;
+    background-color: rgb(183, 183, 183);
+    padding: 0.6rem 3rem;
+    border-radius: 1.2rem;
+}
+
+
+
+
+
+
